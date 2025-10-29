@@ -211,7 +211,7 @@ async function generateAudio(text) {
         
         // TODO: Construct the URL with voice ID
         // HINT: `https://api.elevenlabs.io/v1/text-to-speech/${voiceId}`
-        const url = 'https://api.elevenlabs.io/v1/text-to-speech/${voiceId}';
+        const url = `https://api.elevenlabs.io/v1/text-to-speech/${voiceId}`;
         
         // TODO: Set up headers (IMPORTANT: ElevenLabs uses 'xi-api-key', not 'Authorization'!)
         const headers = {
