@@ -148,7 +148,7 @@ async function generateScript(articles) {
                 }
             ],
             temperature: 0.7,
-            max_tokens: 1
+            max_tokens: 500
         };
         
         // TODO: Make the POST request
